@@ -1,0 +1,174 @@
+* {
+   margin: 0;
+   padding: 0;
+
+}
+
+body,
+html {
+   height: 100%;
+   width: 100%;
+   box-sizing: border-box;
+}
+
+.landing {
+   height: 100%;
+   width: 100%;
+   background: linear-gradient(to top left, rgb(41, 30, 30), rgb(31, 26, 47));
+   display: flex;
+   justify-content: space-between;
+}
+
+.container {
+   color: white;
+   font-family: "kajiro";
+   text-align: center;
+}
+
+.container h1 {
+   color: white;
+   font-size: 9vw;
+   font-weight: 100;
+}
+
+.container p {
+   color: white;
+   font-size: 1.5vw;
+   font-family: league spartan;
+}
+
+.promptgen {
+   background: #fff;
+   width: 70%;
+   height: 30px;
+   padding: 5px 10px;
+   border-radius: 50px;
+   display: flex;
+   justify-content: space-between;
+   left: 30%;
+   margin: 5px;
+   transform: translate(17%);
+}
+
+.promptgen #txtinp {
+   outline: none;
+   width: 70%;
+   border: none;
+   background-color: #fff;
+
+}
+
+.promptgen select {
+   background-color: #fff;
+   border-radius: 50px;
+   border: none;
+}
+
+.promptgen .generate-btn {
+   border: none;
+   background-color: rgb(123, 0, 255);
+   border-radius: 50px;
+   height: 100%;
+   color: white;
+   padding: 5px 15px;
+   cursor: pointer;
+}
+
+.img-section {
+   height: 50%;
+   width: 100%;
+   display: flex;
+   position: relative;
+   animation-name:slide ;
+   animation-duration: 35s;
+   animation-timing-function: linear;
+}
+
+.img-section img {
+   height: 300px;
+   width: 200px;
+   object-fit: cover;
+   top: 80%;
+   left: 0;
+   border-radius: 15px;
+   padding: 0 10px;
+}
+
+.img-section .img-card a img {
+   height: 15px;
+   width: 15px;
+   border-radius: 50%;
+   padding: 5px 5px;
+   background-color: azure;
+   display: none;
+}
+
+.img-section .img-card:not(.loading) hover a img {
+   display: flex;
+}
+
+.imgleftl img {
+   width: 70px;
+   object-fit: cover;
+   height: 100px;
+   justify-content: space-evenly;
+   display: flex;
+   align-items: flex-start;
+   padding: 3px;
+}
+
+.imgl {
+   display: flex;
+   justify-content: space-between;
+   overflow: hidden;
+
+}
+
+.imgleftr img {
+   width: 70px;
+   object-fit: cover;
+   height: 100px;
+   justify-content: space-evenly;
+   display: flex;
+   align-items: flex-start;
+   padding: 3px;
+}
+
+.imgr {
+   display: flex;
+   justify-content: space-between;
+   overflow: hidden;
+}
+
+.imgl .imgleftl {
+   position: relative;
+}
+
+.imgrightl img {
+   width: 70px;
+   object-fit: cover;
+   height: 100px;
+   justify-content: space-evenly;
+   display: flex;
+   align-items: flex-start;
+   padding: 3px;
+}
+.imgrightr img {
+   width: 70px;
+   object-fit: cover;
+   height: 100px;
+   padding: 3px;
+   justify-content: space-evenly;
+   display: flex;
+   align-items: flex-start;
+}
+
+@keyframes slide {
+   0% {
+      transform: translateX(0);
+   }
+
+   100% {
+      transform: translateX(-100);
+   }
+}
