@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.rotate button img{
+    height: 12px;
+    width: 15px;
+}
+.final-action button img{
+    height: 15px;
+    width: 15px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3f2fd;
+}
+.container{
+    width: 850px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px 35px 35px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0,0.1);
+}
+.container h2{
+    font-weight: 500;
+    font-family: poppins, 'thin';
+    font-size: 22px;
+}
+.container .wrapper{
+    display: flex;
+    margin: 20px 0;
+}
+.wrapper .editor-pannel{
+    width: 280px;
+    padding: 15px 20px;
+    border-radius: 5px; 
+    border: 1px solid #ccc;
+}
+.editor-pannel .title{
+    font-size: 16px;
+    display: block;
+    margin-bottom: 12px;
+}
+.cust{
+    margin-top: 10px;
+}
+.editor-pannel .options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.editor-pannel button{
+    height: 40px;
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+}
+.editor-pannel .filters button{
+    width: calc(100%/2 - 4px);
+}
+.filters button.active{
+    color: #fff;
+    background: #5372f0;
+    border: #5372f0;
+    filter:invert(1);
+}
+
+.editor-pannel .rotate button{
+    width: calc(100%/4 - 3px);
+}
+.filters .slider{
+    margin-top: 12px;
+}
+.filters .slider .filter-info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #464646;
+}
+.filters .slider input{
+    width: 100%;
+    height: 3px;
+    accent-color: #5372f0;
+}
+.rotate .options  button img{
+    height: 30%;
+    width: 30%;
+    object-fit: cover;
+}
+.priveiw-image img{
+    object-fit: contain;
+    height: 300px;
+    width: 480px;
+    margin-left: 30px;
+}
+.final-action{
+    display: flex;
+    justify-content: space-between;
+}
+.final-action .control button{
+    height: 50px;
+    width: 120px;
+}
+.final-action .control{
+    margin-right: 20px;
+}
+.final-action .reset{
+    padding: 0px 10px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.final-action .control button:hover{
+    background:#f5f5f5 ;
+}
+.final-action button:hover{
+    background:#f5f5f5 ;
+}
+.final-action .control button{
+    padding: 0px 10px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 3px;
+}

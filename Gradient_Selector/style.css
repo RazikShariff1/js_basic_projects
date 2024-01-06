@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to bottom left, rgb(231, 9, 157) ,rgb(7, 226, 200));
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+.wrapper{
+    /* height: 400px; */
+    width: 300px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.2),8px 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+.wrapper .gradient-box{
+    height:180px ;
+    width:300px ;
+    border-radius: 7px;
+    background: linear-gradient(to bottom left, rgb(231, 9, 157) ,rgb(7, 226, 200));
+    
+
+}
+.wrapper .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.option p{
+    font-family: league spartan;
+    padding: 5px;
+}
+.select select{
+    background: none;
+    width: 100%;
+    font-size: 1.12rem;
+    padding: 10px 0px;
+    border: rgb(26, 23, 23);
+    border-radius:10px ;
+    font-family:Tw Cen MT;
+    border: 1px solid grey;
+    outline: none;
+}
+.color .colors-box{
+    background: none;
+    width: 100%;
+    padding: 7px 0px;
+    border: rgb(26, 23, 23);
+    border-radius:10px ;
+    outline: none;
+}
+.color .colors-box input{
+    justify-content: space-between;
+    border: none;
+}
+.colors p{
+    margin-left: 10px;
+}
+.wrapper .lastsection{
+    justify-content: space-between;
+    display: flex;
+}
+.wrapper textarea{
+    width: 100%;
+    border-radius: 5px;
+    resize: none;
+    padding: 5px 5px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="gradient-box"></div>
+            <div class="row option">
+                <div class="direction">
+                    <p>Direction</p>
+                    <div class="select">
+                        <select>
+                            <option value="to bottom left">bottom left</option>
+                            <option value="to top">top</option>
+                            <option value="to left">left</option>
+                            <option value="to right">right</option>
+                            <option value="to top left">top left</option>
+                            <option value="to top right">top right</option>
+                            <option value="to bottom">bottom</option>
+                            <option value="to bottom right">bottom right</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="colors">
+                    <p>colors</p>
+                    <div class="colors-box">
+                        <input type="color" value="#0AD8DB">
+                        <input type="color" value="#FF00BB">
+                    </div>
+                </div>
+            </div>
+    <textarea id="row" >background: linear-gradient( to bottom left,#ff00bb,#0ad8db);</textarea>
+            <div class="lastsection">
+                <button id="refresh">refresh color</button>
+                <button id="copy">Copy</button>
+                <button id="apply">Apply</button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+:root {
+    --main-color:blue;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: var(--main-color);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.container .text{
+    color: var(--main-color);
+    background: beige;
+} 
+
+.container div{
+    margin: 20px;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+.swither{
+    height: 20px;
+    width: 10%;
+    z-index: 1;
+    display: flex;
+    background:beige;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.container .swither .button{
+    display: block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
