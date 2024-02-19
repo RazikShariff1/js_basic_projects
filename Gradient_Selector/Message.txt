@@ -1,1 +1,2 @@
 in the gradiant selection,try making the shifts of gradient following the cursor path,refer the image
+the bg is repeating
